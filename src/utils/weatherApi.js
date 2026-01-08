@@ -1,4 +1,8 @@
-const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
+
+if (!API_KEY) {
+  throw new Error("Missing VITE_OPENWEATHER_API_KEY");
+}
 
 export async function fetchWeather(lat, lon) {
   const res = await fetch(
