@@ -97,6 +97,7 @@ A modern, minimal, and immersive weather application built with **React + Vite**
 | **State Management** | React Hooks (useState, useEffect, useRef) |
 | **Build Tool** | Vite 5 |
 | **Geolocation** | Browser Geolocation API |
+| **Asserts-Figma** | [Link to Figma file](https://www.figma.com/design/COwKPUypamZds7wStdNDkE/ACM-WeatherApp?node-id=0-1&m=dev&t=BNpUbPh0mBY3Sf0W-1) |
 
 ---
 
