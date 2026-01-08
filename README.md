@@ -7,6 +7,10 @@
 
 A modern, minimal, and immersive weather application built with **React + Vite**, featuring glassmorphism UI, animated weather icons, dynamic themes, real-time data, and ambient weather sounds — inspired by Apple Weather & Material Design.
 
+<div align="center">
+[🚀 Live Demo](https://ambientweatherapp.netlify.app/) 
+</div>
+
 
 ##  Features
 
@@ -28,12 +32,12 @@ A modern, minimal, and immersive weather application built with **React + Vite**
 ###  Clear Sky
 *Soft sky blue gradients with golden sun animation and gentle pulsing effect*
 
-![Clear Sky Theme](/assets/demo/clear.png)
+![Clear Sky Theme](public/themes/clear.png)
 
 <details>
 <summary>🎞️ View Animated GIF</summary>
 
-![Clear Sky Animation](/assets/demo/clear.gif)
+![Clear Sky Animation](public/themes/clear.gif)
 
 </details>
 
@@ -42,12 +46,12 @@ A modern, minimal, and immersive weather application built with **React + Vite**
 ### ☁️ Cloudy
 *Muted grey tones with drifting cloud motion and subtle animations*
 
-![Cloudy Theme](/assets/demo/clouds.png)
+![Cloudy Theme](public/themes/cloud.png)
 
 <details>
 <summary>🎞️ View Animated GIF</summary>
 
-![Cloudy Animation](/assets/demo/clouds.gif)
+![Cloudy Animation](public/themes/cloud.gif)
 
 </details>
 
@@ -56,12 +60,12 @@ A modern, minimal, and immersive weather application built with **React + Vite**
 ### 🌧️ Rainy
 *Cool dark palette with rain motion, bounce animation & ambient rain sound*
 
-![Rainy Theme](/assets/demo/rain.png)
+![Rainy Theme](public/themes/rain.png)
 
 <details>
 <summary>🎞️ View Animated GIF</summary>
 
-![Rain Animation](/assets/demo/rain.gif)
+![Rain Animation](public/themes/rain.gif)
 
 </details>
 
@@ -70,12 +74,12 @@ A modern, minimal, and immersive weather application built with **React + Vite**
 ### ⛈️ Thunderstorm
 *Deep purple tones with lightning flash effect and thunder ambience*
 
-![Thunderstorm Theme](/assets/demo/thunderstorm.png)
+![Thunderstorm Theme](public/themes/thunderstorm.png)
 
 <details>
 <summary>🎞️ View Animated GIF</summary>
 
-![Thunderstorm Animation](/assets/demo/thunderstorm.gif)
+![Thunderstorm Animation](public/themes/thunderstorm.gif)
 
 </details>
 
@@ -254,20 +258,10 @@ Output will be in the `dist/` directory.
 
 ### Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Rohithpranov07/WeatherNow)
+This project is deployed using Netlify with continuous deployment from GitHub.
+[🚀 Live Demo](https://ambientweatherapp.netlify.app/) 
 
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
 
-# Build and deploy
-npm run build
-netlify deploy --prod --dir=dist
-```
-
-### Environment Variables on Deployment
-
-Make sure to add your `VITE_OPENWEATHER_API_KEY` in the platform's environment variable settings.
 
 ---
 
@@ -479,7 +473,7 @@ If you're new to any of the technologies used:
 - **Geolocation API:** [MDN Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
 - **Claude**
 - **ChatGpt**
-- **Figma**
+- **Figma** [Figma File](https://www.figma.com/design/COwKPUypamZds7wStdNDkE/ACM-WeatherApp?node-id=0-1&m=dev&t=BNpUbPh0mBY3Sf0W-1)
 
 ---
 
